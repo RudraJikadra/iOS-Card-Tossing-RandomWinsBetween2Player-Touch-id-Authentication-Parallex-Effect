@@ -13,3 +13,4 @@ This is a combination iOS application of various small features like Parallex Ef
 ## How it looks like
 (Gif)
 
+![ezgif com-optimize](https://user-images.githubusercontent.com/15246084/41510841-1e97055a-7289-11e8-81aa-caee2a6a7967.gif)
