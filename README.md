@@ -10,6 +10,6 @@ This is a combination iOS application of various small features like Parallex Ef
 ## Note
 * Xcode 9 and Swift 4 was used to build this application.
 
-### How it looks like
+## How it looks like
 (Gif)
 
