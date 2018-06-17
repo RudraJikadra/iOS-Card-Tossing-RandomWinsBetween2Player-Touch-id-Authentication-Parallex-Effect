@@ -152,7 +152,7 @@ class ViewController: UIViewController {
             self.rotateView2(targetView: targetView, duration: 1.0)
         }
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -165,9 +165,6 @@ class ViewController: UIViewController {
         
         card1.image = UIImage(named: "card\(card1Random)")
         card2.image = UIImage(named: "card\(card2Random)")
-        
-        UIView.transition(with: card1, duration: 0.8, options: .transitionFlipFromRight, animations: nil, completion: nil)
-        UIView.transition(with: card2, duration: 0.8, options: .transitionFlipFromLeft, animations: nil, completion: nil)
         
         updateScore(prio1: card1Random, prio2: card2Random)
         
@@ -209,5 +206,4 @@ class ViewController: UIViewController {
     }
     
 }
-
 
